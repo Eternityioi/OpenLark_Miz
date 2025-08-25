@@ -16,18 +16,13 @@
 
 ## 安装部署
 
-### 1. 克隆项目
-```bash
-git clone <项目地址>
-```
+### 本地部署
+- 查看本地部署文档 [Local_Build.md](Docs/Local_Build.md)
 
-### 2. 安装依赖
-```bash
-pip install -r requirements.txt
-```
+### Github Actions 部署
+- 查看Github Actions部署文档 [Github_Actions.md](Docs/Github_Actions.md)
 
-### 3. 配置环境变量
-复制 `.env.example` 为 `.env` 并填写以下配置：
+#### 环境变量
 
 ```env
 # 飞书应用配置
@@ -56,14 +51,8 @@ HAR_FILE=data/cookie.har
 COOKIE_CHECK_INTERVAL=3600  # 检查间隔（秒），默认1小时
 ```
 
-### 4. 配置Cookie
-- 将有效的Cookie文件放置于 `ata/cookie.har`
-- 获取har文件方式请自行搜索
-
 ## 使用说明
-
 ### 在飞书对话中使用
-
 向机器人发送以下指令：
 
 #### 成员管理指令
@@ -225,9 +214,10 @@ OpenLark/
 - ✅ 飞书实时消息交互
 
 ## 有偿帮助
-<img width="686" height="840" alt="image" src="https://github.com/user-attachments/assets/d3d8ed20-63da-48e4-93dd-6c4b456ee0f6" />
+<img width="383" height="440" alt="image" src="https://github.com/user-attachments/assets/d3d8ed20-63da-48e4-93dd-6c4b456ee0f6" />
 
 ## 免责声明
 
 - 本系统仅用于企业内部成员管理，请遵守相关法律法规和政策。请确保已获得相应的操作权限和授权。
 - 觅智网成员管理API接口为官方未公开接口，非法调用可能导致账号被封禁，请自行斟酌。
+ 
