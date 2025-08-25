@@ -30,12 +30,30 @@ pip install -r requirements.txt
 复制 `.env.example` 为 `.env` 并填写以下配置：
 
 ```env
-FEISHU_APP_ID=你的应用ID
-FEISHU_APP_SECRET=你的应用密钥
-FEISHU_VERIFICATION_TOKEN=你的验证令牌
-FEISHU_ENCRYPT_KEY=你的加密密钥
-BITABLE_APP_TOKEN=你的多维表格AppToken
-BITABLE_TABLE_ID=你的表格ID
+# 飞书应用配置
+# 获取方式 https://open.feishu.cn/app
+FEISHU_APP_ID=your_app_id
+FEISHU_APP_SECRET=your_app_secret
+FEISHU_VERIFICATION_TOKEN=your_verification_token
+FEISHU_ENCRYPT_KEY=your_encrypt_key
+
+# Cookie检查通知配置
+# 获取方式 https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot
+FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/your_botwebhook_key
+
+# 多维表格配置（用于记录操作日志）
+# 获取方式 https://open.feishu.cn/document/server-docs/docs/bitable-v1/notification
+BITABLE_APP_TOKEN=your_bitable_app_token
+BITABLE_TABLE_ID=your_bitable_table_id
+
+# 企业配置
+COMPANY_ID=12345
+
+# HAR文件路径
+HAR_FILE=data/cookie.har
+
+# Cookie检查配置
+COOKIE_CHECK_INTERVAL=3600  # 检查间隔（秒），默认1小时
 ```
 
 ### 4. 配置Cookie
