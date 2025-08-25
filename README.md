@@ -224,6 +224,9 @@ OpenLark/
 - ✅ Cookie有效性检查
 - ✅ 飞书实时消息交互
 
+## 有偿帮助
+<img width="686" height="840" alt="image" src="https://github.com/user-attachments/assets/d3d8ed20-63da-48e4-93dd-6c4b456ee0f6" />
+
 ## 免责声明
 
 - 本系统仅用于企业内部成员管理，请遵守相关法律法规和政策。请确保已获得相应的操作权限和授权。
